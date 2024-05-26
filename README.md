@@ -10,7 +10,7 @@ The project uses Newton's Method, which is an iterative numerical method for fin
 
 2. **Define the required constants**: This includes number of total nodes, start and stop points of $X_i$, initial value of $X$, boundary value of $X$, and spacing between the $X_i$ nodes.
 
-3. **Define the $M(X, C)$ function**: This function takes $X_i$ (or $X$) and $C$ (boundary layer) and provides $M$ and $\frac{dM}{dx} in every node.
+3. **Define the $M(X, C)$ function**: This function takes $X_i$ (or $X$) and $C$ (boundary layer) and provides $M$ and $\frac{dM}{dx}$ in every node.
 
 4. **Define the $G$ function**: This function is essentially the ODE of function $M$. It will be used in Newton's Method.
 
